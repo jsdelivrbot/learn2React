@@ -45,3 +45,11 @@ Can equal
 	  });
 
 ---
+
+Interpolation can be done with the following method
+
+	`This is a string:   $(thisIsAVariable)`
+
+NOTE: Those are not single quotes, they are backticks.
+
+---
