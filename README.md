@@ -4,6 +4,20 @@ This repo is the product of following the Modern Redux and React course on udemy
 
 https://www.udemy.com/react-redux/learn/v4/content
 
+It is a simple youtube clone that uses the YouTube API to populate the page with
+data.
+
+To use it, simply clone this repository and cd into it's directory.
+Then do a
+
+`npm install`
+
+followed by a
+
+'npm start'
+
+The app will now be viewable at localhost:8080
+
 <h1> Notes </h1>
 
 This class layout below
