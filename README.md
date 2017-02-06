@@ -65,3 +65,11 @@ Interpolation can be done with the following method
 NOTE: Those are not single quotes, they are backticks.
 
 ---
+
+Using the npm module lodash gives you acces to debounce. The following debouce term was used to tell the app to wait 300ms before running. That way the video search wouldn't refresh upon each individual character that the user would input and would instead wait for them to finish typing
+
+	import _ from 'lodash';
+
+	...
+
+	const videoSearch =_.debounce((term) => { this.videoSearch(term) }, 300);
