@@ -1,4 +1,4 @@
-## Learn2Redux
+## Learn2React
 
 This repo is the product of following the Modern Redux and React course on udemy. The course can be found at
 
