@@ -73,3 +73,10 @@ Using the npm module lodash gives you acces to debounce. The following debouce t
 	...
 
 	const videoSearch =_.debounce((term) => { this.videoSearch(term) }, 300);
+
+---
+
+In ES6, a function can accept a parameter and assign a value to it if it is undefined at the time
+
+	function(state = null, action)
+
